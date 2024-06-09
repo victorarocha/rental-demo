@@ -6,6 +6,7 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "title",
   "make",
   "model",
   "year",
@@ -16,32 +17,46 @@
   {
    "fieldname": "make",
    "fieldtype": "Data",
-   "label": "Make"
+   "in_list_view": 1,
+   "label": "Make",
+   "reqd": 1
   },
   {
    "fieldname": "model",
    "fieldtype": "Data",
-   "label": "Model"
+   "in_list_view": 1,
+   "label": "Model",
+   "reqd": 1
   },
   {
    "fieldname": "year",
    "fieldtype": "Int",
-   "label": "Year"
+   "in_list_view": 1,
+   "label": "Year",
+   "reqd": 1
   },
   {
    "fieldname": "license_plate",
    "fieldtype": "Data",
-   "label": "License Plate"
+   "in_list_view": 1,
+   "label": "License Plate",
+   "reqd": 1
   },
   {
    "fieldname": "color",
    "fieldtype": "Data",
    "label": "Color"
+  },
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "label": "Title",
+   "read_only": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-08 16:21:40.611151",
+ "modified": "2024-06-09 13:54:20.702328",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Vehicle",
