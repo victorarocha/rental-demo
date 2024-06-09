@@ -11,6 +11,7 @@
   "first_name",
   "last_name",
   "phone_number",
+  "full_name",
   "column_break_hvli",
   "license_number",
   "gender",
@@ -65,12 +66,17 @@
    "in_list_view": 1,
    "label": "Last Name",
    "reqd": 1
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "label": "Full Name"
   }
  ],
  "image_field": "profile_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-08 19:44:32.299954",
+ "modified": "2024-06-08 21:05:16.641195",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Driver",
