@@ -2,7 +2,7 @@
 import frappe
 
 def execute():
-	"""set title value on vehicle"""
+	"""set title value on vehicle second time"""
 	# Write your patch here.
 	vehicles = frappe.db.get_all("Vehicle", pluck="name")
 	for v in vehicles:
