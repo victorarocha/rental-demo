@@ -70,13 +70,14 @@
   {
    "fieldname": "full_name",
    "fieldtype": "Data",
-   "label": "Full Name"
+   "label": "Full Name",
+   "read_only": 1
   }
  ],
  "image_field": "profile_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-06-08 21:05:16.641195",
+ "modified": "2024-06-09 16:25:32.198354",
  "modified_by": "Administrator",
  "module": "Rentals",
  "name": "Driver",
