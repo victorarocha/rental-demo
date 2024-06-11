@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "creation": "2024-06-10 12:37:21.658984",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Ride Order",
+ "enabled": 1,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>New booking has arrived.</p>\n\n<p><a href=\"http://rental-demo.localhost\">Click here to view</a></p>\n",
+ "message_type": "Markdown",
+ "modified": "2024-06-10 14:18:48.054322",
+ "modified_by": "Administrator",
+ "module": "Rentals",
+ "name": "New Booking Arrived!",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "cc": "victor.arocha@example.com",
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 1,
+ "subject": "{{ doc.customer_name }} book a vehicle !!"
+}
