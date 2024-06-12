@@ -1,0 +1,34 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"RYGQkVN1Qw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Rentals</span>\",\"col\":12}},{\"id\":\"8DqK0GCWSa\",\"type\":\"number_card\",\"data\":{\"number_card_name\":\"Number of Vehicles\",\"col\":4}}]",
+ "creation": "2024-06-10 11:15:12.247656",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "color-review-points",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Rentals",
+ "links": [],
+ "modified": "2024-06-11 19:40:30.675584",
+ "modified_by": "Administrator",
+ "module": "Rentals",
+ "name": "Rentals",
+ "number_cards": [
+  {
+   "label": "Number of Vehicles",
+   "number_card_name": "Number of Vehicles"
+  }
+ ],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 1.0,
+ "shortcuts": [],
+ "title": "Rentals"
+}
