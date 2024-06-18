@@ -6,6 +6,12 @@ app_email = "victor.arocha@gmail.com"
 app_license = "mit"
 # required_apps = []
 
+
+fixtures = [
+    {"dt": "Vehicle Type", "filters": {"is_standard": 1}},
+    "Rental Settings"
+]
+
 # Includes in <head>
 # ------------------
 
